@@ -41,6 +41,10 @@ p {
   text-align: center;
 }
 
+. products {
+  max-width: 100%;
+}
+
 . cart-button {
   font-family: Oswald, sans-serif;
  display: inline-block;
