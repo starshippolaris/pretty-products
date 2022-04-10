@@ -28,6 +28,13 @@ li {
   border-radius: 6px;
 }
 
+ul > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 h2 {
   color: #6f00e7;
   font-family: 'Karma', serif;
