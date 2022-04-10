@@ -1,3 +1,4 @@
+
 html {
   box-sizing: border-box;
   font-family: Karma, serif;
@@ -36,28 +37,51 @@ ul > li {
 }
 
 h2 {
+  font-family: Oswald, sans-serif;
+  margin: 0;
   color: #6f00e7;
-  font-family: 'Karma', serif;
-  text-align: center;
   font-size: 2rem;
+  text-align: center;
   font-weight: 900;
 }
 
 p {
+  margin: 0;
   font-family: Karma, serif;
   font-size: 1.4rem;
   text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .1em;
+  padding-bottom: .5em;
 }
 
 .products {
   max-width: 100%;
+  padding-top: 1rem;
+  padding-left: 4.05rem;
+  padding-right: 4.05rem;
+  padding-bottom: 1rem;
 }
 
 .cart-button {
   font-family: Oswald, sans-serif;
- display: inline-block;
- background-color: #6f00e7;
- border-radius: 3em;
- color: white;
- text-decoration: none;
+  display: inline-block;
+  background-color: #6f00e7;
+  border-radius: 3em;
+  color: white;
+  text-decoration: none;
+  padding-top: .3em;
+  padding-bottom: .6em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin: 1rem;
+}
+
+.share {
+  align-content: flex-end;
+}
+
+div {
+  justify-content: space-between;
 }
