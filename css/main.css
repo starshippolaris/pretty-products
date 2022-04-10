@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  font-family: karma : serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+li {
+  list-style: none;
+  border: 3px solid #987ffa;
+  border-radius: 6px;
+}
+
+h2 {
+  color: #6f00e7;
+  font-family: 'Karma', serif;
+  text-align: center;
+  font-size: 2rem;
+}
+
+p {
+  font-family: Karma, serif;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+. cart-button {
+  font-family: Oswald, sans-serif;
+ display: inline-block;
+ background-color: #6f00e7;
+ border-radius: 3em;
+ color: white;
+ text-decoration: none;
+}
