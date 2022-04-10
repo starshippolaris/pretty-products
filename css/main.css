@@ -1,11 +1,11 @@
 html {
   box-sizing: border-box;
-  font-family: 'Karma' : serif;
+  font-family: Karma, serif;
   line-height: 1.5;
   margin: 0;
 }
 
-*, *::after, *::before {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
